@@ -2,3 +2,33 @@
   <h1>This is <span class="glow">glowy and cool</span>.</h1> 
   <button onclick="alert('Correct!')">Wow, it sure is!</button>
 </div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Lato, sans-serif;
+  background-color: #f7f7f7;
+}
+button {
+  border: none;
+  padding: 20px;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(135deg, rgba(0,60,190,1) 0%, rgba(216,0,255,1) 100%);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 10px 10px 44px 4px rgba(71,0,161,0.67),-10px -10px 44px 4px rgba(41,62,255,0.67);
+  transform: none;
+  transition-duration: 0.3s;
+}
+button:hover {
+  transform: scale(1.2);
+}
+</style>
